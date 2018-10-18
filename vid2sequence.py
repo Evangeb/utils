@@ -16,3 +16,5 @@ while success:
   success,image = vidcap.read()
   print('Read a new frame: ', success)
   count += 1
+  
+vidcap.close()
