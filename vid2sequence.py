@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import matplot.pyplot as plt
+import matplotlib.pyplot as plt
 
 
 vidcap = cv2.VideoCapture('Driver Swing_07.06.18.MOV')
