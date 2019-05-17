@@ -1,0 +1,2 @@
+ffmpeg -i input.mov -c copy -map 0 -segment_time 00:00:45 -f segment output%03d.mov
+
